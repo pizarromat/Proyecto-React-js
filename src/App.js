@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Function from './components/Function';
+import Class from './components/Class';
+import List from './components/List';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Navbar from './components/Navbar';
+import Menu from './components/paginas/Menu';
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  
+    const arr = ["pancho", "ruben"]
+    return(
+        <div className="App">
+            <Router>
+                <Navbar/> 
+            </Router>
+            <Class name={arr[0]}/>
+            <Function name={arr[1]}> 
+            </Function>
+            <List/>
+        </div>
+    );
 }
 
 export default App;
