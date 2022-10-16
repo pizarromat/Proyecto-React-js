@@ -16,17 +16,17 @@ function App() {
             <Router>
             <Navbar/>
             <Routes>
-                <Route exact path='/' element={<Index />} />
-                <Route exact path='/Carta' element={<Carta />} />
-                <Route exact path='/Compra' element={<Compra />} />
-                <Route exact path='/Nosotros' element={<Nosotros />} />
-                <Route exact path='/Contacto' element={<Contacto />} />
+                <Route exact path='/' element={ <Index />} />
+                <Route exact path='/Carta' element={ <Carta />} />
+                <Route exact path='/Compra' element={ <Compra />} />
+                <Route exact path='/Nosotros' element={ <Nosotros />} />
+                <Route exact path='/Contacto' element={ <Contacto />} />
             </Routes>
             </Router>
             
 
             
-            <ItemListConteiner gretting={'Esto va en todas las paginas'}></ItemListConteiner>
+            <ItemListConteiner gretting={'aca iria el footer'}></ItemListConteiner>
         </div>
     );
 }
