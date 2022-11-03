@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 
 import CartWidget from '../CartWidget/CartWidget';
 import Index from '../paginas/Index';
-import Compra from '../paginas/Compra';
 import Nosotros from '../paginas/Nosotros';
 import Contacto from '../paginas/Contacto';
 
@@ -12,7 +11,7 @@ function BasicExample() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light bg-propio">
       <div className="container-fluid">
         <Link to={'/'}>
-          <img src="./PIZZERIA PROVOLETA.png" width='100px' />
+          <img src="./PIZZERIA PROVOLETA.png" className="logo-pagina" />
         </Link>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">

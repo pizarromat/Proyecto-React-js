@@ -1,7 +1,17 @@
 .counter{
     width: fit-content;
-    background-color: gold;
+    background-color: rgba(128, 128, 128, 0.459);
     margin: auto;
+    margin-top: 8rem;
     padding: 1rem;
     text-align: center;
+}
+.contador-item{
+    padding: 0 0 1rem 0;
+}
+.count-span{
+    padding: 1rem;
+}
+.suma-resta{
+    padding: 0.1rem  0.3rem;
 }

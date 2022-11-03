@@ -6,6 +6,15 @@
 img{
   width:300px;
 }
+.logo-pagina{
+  width: 100px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /* paginas -------- */
 
@@ -103,39 +112,6 @@ img{
 }
 
 
-/* CARTA --------------------------------------- */
-
-.fondo-carta{
-  height: 40vh;
-  background: url(../src/assets/img/fondo-carta.jpg) no-repeat center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.main-carta{
-  height: 115vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.p-carta{
-  font-family: 'Poppins', sans-serif ;
-}
-.titulo-pizzas{
-  font-size: 40px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: black;
-}
-.titulo-medidas{
-  font-size: 30px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: black;
-}
-
-
 /* Comprar ----------------------------------------------------- */
 
 
@@ -148,16 +124,6 @@ img{
 .main-productos{
   height: 90vh;
 }
-.titulo-competencias{
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0 0 0;
-  font-size: 40px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: black;
-  font-family: 'Poppins', sans-serif ;
-}
 .titulo-stock{
   display: flex;
   justify-content: center;
@@ -167,6 +133,10 @@ img{
   text-transform: uppercase;
   color: black;
   font-family: 'Poppins', sans-serif ;
+}
+.compra{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 

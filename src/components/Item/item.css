@@ -1,0 +1,10 @@
+.film{
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+}
+.tabla{
+    display: inline-block;
+    margin-left: 15rem;
+   
+}
