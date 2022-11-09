@@ -1,0 +1,33 @@
+
+footer{
+    background-color: white; 
+    display: grid;
+    grid-template-areas: 
+    "redes-sociales"
+    "parrafo";
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0;
+  }
+  .redes{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    grid-area: redes-sociales;
+  }
+  .parrafoFooter{
+    margin-bottom: 0;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    grid-area: parrafo;
+  }
+  .iconos-footer{
+    height: 40px !important;
+    width: 40px !important;
+  }
+  
+  

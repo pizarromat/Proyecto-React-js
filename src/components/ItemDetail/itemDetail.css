@@ -19,7 +19,9 @@
     
     margin: auto;
 }
-
+.boton-terminarCompra{
+    padding-top: 9rem !important;
+}
 @media screen and (min-width: 768px) {
     .detail_image{
         width: 50%;

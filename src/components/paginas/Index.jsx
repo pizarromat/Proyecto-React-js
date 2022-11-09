@@ -1,6 +1,8 @@
 import React from 'react'
 import cajas from '../../assets/img/Cajas para Pizzas.png'
 
+
+
 const Index = () => {
   return (
     <>
@@ -35,4 +37,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Index;

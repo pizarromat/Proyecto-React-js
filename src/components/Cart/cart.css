@@ -1,0 +1,11 @@
+.cart{
+    padding: 2rem 0 ;
+}
+.parrafo-carrito{
+    display: flex;
+    justify-content: center;
+}
+.boton-carrito{
+    display: flex;
+    justify-content: center;
+}

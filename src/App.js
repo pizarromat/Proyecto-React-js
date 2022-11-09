@@ -4,6 +4,7 @@ import React from 'react';
 import { BrowserRouter, BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Navbar from '../src/components/NavBar/Navbar';
+import Footer from './components/Footer/Footer';
 import ItemListConteiner from './components/ItemListContainer/ItemListContainer';
 import Index from './components/paginas/Index';
 import Nosotros from './components/paginas/Nosotros';
@@ -31,6 +32,7 @@ function App() {
                         <Route exact path='/Contacto' element={ <Contacto />} />
                         <Route exact path='/cart' element={<Cart />} />
                     </Routes>
+                    <Footer />
                 </CartProvider>
             </Router>
         
